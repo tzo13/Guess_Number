@@ -32,3 +32,7 @@ tkinter
 * Entry field for your guesses.
 
 ---
+## How to run
+* You run the script, pick a difficulty and click Random to have the computer pick a number
+* Then you try your guesses and press Enter every time!
+
