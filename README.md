@@ -1,38 +1,56 @@
-# Guess the Number 🎲💜
+🎲  Number Guesser Game (Tkinter Edition)
+Welcome to a number guessing game you didn’t know you needed. Built with love, Python, Tkinter.
 
-Welcome to **Guess the Number**, a simple but stylish Python game with a purple theme that challenges your number-guessing skills!
-Powered by **Tkinter** , this app lets you pick a difficulty and try to guess the secret number. 
+💡 What Is This?
+This is a simple number guessing game with:
 
----
+Three difficulty levels (easy, medium, hard)
 
-## Features ✨
+Funky purple visuals
 
-* Choose your difficulty level:
+Helpful image hints (up, down, or correct)
 
-  * Easy (0–50) 
-  * Medium (0–100) 
-  * Hard (0–200) 
-* Clean, purple-themed interface — easy on the eyes.
-* Input your guess and see if you can crack the code!
+A random number generator and a counter that reminds you how bad you are at guessing.
 
----
+📦 Features
+🎨 Purple themed GUI with handpicked styling
 
-## Installation 🛠️
+🔢 Random number generation depending on selected difficulty
 
-Make sure you have Python installed (preferably 3.x). Then, grab the required packages:
-tkinter
+🎯 Visual feedback (arrow up, arrow down, checkmark)
+
+⌨️ Press Enter to check your guess
+
+🧠 Tracks your number of tries
+
+💥 One big EXIT button if you rage quit
+
+🕹️ How to Play
+Run the script using Python 3.
+
+Pick a difficulty (Easy: 0–50, Medium: 0–400, Hard: 0–1000).
+
+Click "Random Number" to begin.
+
+Type your guess and press Enter.
+
+Repeat until the number bows to your greatness.
+
+Watch the image tell you if you're too high, too low, or spot-on.
+
+🖼️ Assets Needed
+Make sure the following image files are in the same directory as your script:
+
+uparrow.png
+
+downarrow.png
+
+correct.png
+
+dice1.png
 
 
----
+🔧 Requirements
+Python 3.x
 
-## What’s inside? 
-
-* Custom purple theme made with `ttk.Style()` 
-* Radio buttons to pick difficulty.
-* Entry field for your guesses.
-
----
-## How to run
-* You run the script, pick a difficulty and click Random to have the computer pick a number
-* Then you try your guesses and press Enter every time!
-
+Tkinter (comes pre-installed with Python)
